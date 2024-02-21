@@ -1,0 +1,151 @@
+/* reseting css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#E60000;
+    margin-bottom: 10rem;
+}
+/* styling titel */
+.titel{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 101rem;
+    margin: 5rem 10rem ;
+    border-radius: 10rem;
+}
+
+.titel h1{
+    font-size: 6rem;
+}
+
+/* styling titel 2 and 3 */
+.titel-2{
+    font-size: 4rem;
+    color: white;
+    margin-left: 40rem;
+}
+.titel-3 h3{
+    font-size: 4rem;
+    color: black;
+    margin-top: 4rem;
+}
+
+.ramen-sidebar-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    
+}
+
+/* styling ramen container */
+.ramen-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+.ramen-container img{
+    height: auto;
+    width: 50vh;
+    border-radius: 4rem;
+}
+.ramen-container h4{
+    font-size: 3rem;
+    color: white;
+    margin-right: 15rem;
+}
+.btn{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 2rem;
+    background-color: #87D462;
+}
+
+.btn span{
+    font-size: 25px;
+    color: white;
+}
+
+
+.sidebar-container{
+    background-color: white;
+    height: auto;
+    width: 30rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.sidebar-container h3{
+    font-size: 2rem;
+}
+.sidebar-container p{
+    font-size: 25px;
+    color: gray;
+}
+
+
+/* javascript styling for sidebar-container */
+.sidebar-container-js{
+    background-color: white;
+    height: auto;
+    width: 30rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 3rem;
+    display: none;
+}
+.sidebar-container-js h3{
+    font-size: 2rem;
+}
+.img-p{
+    display: flex;
+    gap: 1rem;
+}
+.sidebar-container-js img{
+    height: auto;
+    width: 10vh;
+    border-radius: 20px;
+}
+.sidebar-container-js p{
+    font-size: 2rem;
+}
+
+.red-btn--green-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-bottom: 3rem;
+    height: 2rem;
+    /* width: auto; */
+}
+.red-btn{
+    background-color: red;
+    color: white;
+}
+.green-btn{
+    background-color: #87D462;
+    color: white;
+}
+
